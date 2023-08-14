@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.first-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-nav .logo {
+    width: 15%;
+}
+
+.first-nav .search {
+    display: flex;
+    flex-direction: column;
+}
+
+.search img {
+    width: 20%;
+}
+
+.search-2 {
+    display: flex;
+    align-items: center;
+}
+
+.search-2 button {
+    cursor: pointer;
+}
+
+.nav-1 {
+    display: flex;
+    text-align: center;
+}
+
+.web-fs-search {
+    font-family: Arial;
+    font-size: 12px;
+}
+.web-fs-search a {
+    text-decoration: none;
+    color: #3f8dc2;
+}    
+
+.nav-links {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: Arial;
+    color: #3f8dc2;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.second-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f8dc2;
+    margin-top: 1vh;
+    height: 35px;
+    padding-left: 1%;
+}
+
+.nav-links-2 {
+    padding-right: 10px;
+    font-family: Arial;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 30px 10px 10px 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #e3e3e3;
+    padding: 100px 0;
+  }
+  
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 16;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item1 .header {
+    position: relative;
+    top: -90px;
+    left: 15px;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .item2 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .item2 .header {
+    position: relative;
+    top: -90px;
+    left: 15px;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .item3 {
+    grid-row-start: 16;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item3 .header {
+    position: relative;
+    top: -90px;
+    left: 15px;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+  }
