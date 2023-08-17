@@ -89,27 +89,126 @@
     grid-column-end: 3;
   }
 
-  .item1 .header {
+  .item1 .username {
+    background-color: #bbeaf9;
+    padding-left: 10px;
+    height: 25px;
     position: relative;
-    top: -90px;
-    left: 15px;
+    top: -128px;
     font-family: Arial;
     font-weight: 700;
     font-size: 20px;
   }
+
+  .item1 .username h5 {
+    padding-top: 3px;
+    color: #3f8dc2;
+  }
   
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: -281px;
+    top: -120px;
+}
+
+.profile img {
+    top: -120px;
+}
+
+.profile figcaption {
+    padding-top: 7px;
+    color: #1c1c1c;
+}
+
+.profile-settings table{
+    border-collapse: collapse;
+    position: relative;
+    left: 9px;
+    top: -111px;
+}
+
+.profile-settings td {
+    border: 1px solid #FFFFFF;
+    background-color: #d2e6e9;
+    text-align: center;
+    padding: 8px 0px 8px 103px;
+}
+
+.profile-settings td:hover {
+  background-color: #3f8dc2;
+}
+
+.profile-settings button {
+  border-style: none;
+  position: relative;
+  left: -50%;
+  background-color: #d2e6e9;
+  font-family: Arial;
+  color: #3f8dc2;
+}
+
+button:hover {
+  background-color: #3f8dc2;
+  color: #FFFFFF;
+}
+
+.box-sb2 {
+  width: 300px;
+  background: rgb(243, 243, 243);
+  padding: 20px 30px 20px 144px;
+  font-weight: 700;
+  color: rgb(63, 141, 194);
+  font-family: arial;
+  position: relative;
+  right: -454px;
+  top: -722px;
+}
+
+.box-sb2 .shoutout {
+    position: relative;
+    left: -130px;
+    top: -10px;;
+}
+
+.create {
+  color: red;
+}
+
+.profile-details {
+  font-family: Arial;
+  color: #1c1c1c;
+  position: relative;
+  left: 455px;
+  top: -694px;
+}
+
+.profile-details a, .profile-details-text {
+  text-decoration: none;
+  color: #3f8dc2;
+}
+
   .item2 {
     grid-row-start: 1;
     grid-row-end: 4;
   }
 
-  .item2 .header {
+  .item2 .friends {
+    background-color: #bbeaf9;
+    padding-left: 10px;
+    height: 25px;
     position: relative;
-    top: -90px;
-    left: 15px;
+    top: -128px;
     font-family: Arial;
     font-weight: 700;
     font-size: 20px;
+  }
+
+  .item2 .friends h5 {
+    padding-top: 3px;
+    color: #3f8dc2;
   }
 
   .item3 {
@@ -118,11 +217,18 @@
     grid-column-end: 3;
   }
 
-  .item3 .header {
+  .item3 .comments {
+    background-color: #bbeaf9;
+    padding-left: 10px;
+    height: 25px;
     position: relative;
-    top: -90px;
-    left: 15px;
+    top: -128px;
     font-family: Arial;
     font-weight: 700;
     font-size: 20px;
+  }
+
+  .item3 .comments h5 {
+    padding-top: 3px;
+    color: #3f8dc2;
   }
